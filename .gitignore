@@ -1,0 +1,22 @@
+log/
+.vscode
+# Elastic Beanstalk Files
+.elasticbeanstalk/*
+!.elasticbeanstalk/*.cfg.yml
+!.elasticbeanstalk/*.global.yml
+.idea/
+.vscode/
+node_modules/
+build/
+tmp/
+uploads/
+temp/
+/coverage/
+/.nyc_output/
+dist/
+
+# don't check in version file
+/src/version.ts
+
+
+package-lock.json
